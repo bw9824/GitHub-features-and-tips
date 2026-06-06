@@ -1,40 +1,125 @@
 # Intro
 If you need to write documentation on GitHub but aren't sure how to use the syntax to achieve your desired layout, this guide is for you. Below, we demonstrate various Markdown syntaxes to help you format your files effectively.
 
-## Table of Contents
-1. [Text](#Text)
+# Table of Contents
+1. [Content](#Content)
+    1. [Headings](#Headings)
+    2. [Lists](#Lists)
+    3. [Horizontal lines](#Horizontal-lines)
+    4. [Text](#Text)
+    5. [New Line](#New-Line)
+    6. [Text Highlights](#Text-Highlights)
 2. [Image](#Image)
 
-## Text
-### Headings
+# Content
+## Headings
+- Syntax
 ```
 # Heading Level 1
-...
+.
+.
 ###### Heading Level 6 (The Minimum)
 ```
-The result is as follows:
+- Example
 #### Heading Level 4
 ###### Heading Level 6
+[Back to Table of Contents](#table-of-contents)
 
-[Table of Contents](#table-of-contents)
-### Horizontal lines
+## Lists
+- Syntax
+```
+1. XXA List
+    1. XXB List
+        1. XXC List
+- XXA List
+    - XXB List
+        - XXC List
+```
+- Example
+1. XXA List
+    1. XXB List
+        1. XXC List
+- XXA List
+    - XXB List
+        - XXC List
 
------------ ***、---、___ can display horizontal line effects
+[Back to Table of Contents](#table-of-contents)
+
+## Horizontal lines
+- Syntax
+```
+***
+---
+___
+```
+- Example
+***
+[Back to Table of Contents](#table-of-contents)
+
+## Text
+- Syntax 1    
+Your Text
+- Example 1  
+Welcome!!!  
+Thank You
+- Syntax 2  
+` ``` `  
+Your Text  
+` ``` `
+- Example 2  
+```
+Welcome!!!
+Thank You
+```
+
+## New Line
+Simply pressing 'Enter' won't create a line break. 'Adding two spaces' after the previous line of text then pressing 'Enter', which will then wrap the text to the next line.  
+(Only required for Content Syntax 1**, **Content Syntax 2 can simply pressing 'Enter')
+
+## Text Highlights
+
+|Syntax|Example|
+|------|-------|
+|``` `Highlight` ```|`Highlight`|
+|`*Italic 1*`, `_Italic 2_`|*Italic 1*, _Italic 2_|
+|`**Bold 1**`, `__Bold 1__`|**Bold 2**, __Bold 2__|
+|`~~Strikethrough~~`|~~Strikethrough~~|
+|`*__Italic Bold 1__*`|*__Italic Bold 1__*|
+
+[Back to Table of Contents](#table-of-contents)
+
+## Content Color
 
 
 
 
+[Back to Table of Contents](#table-of-contents)
 
 
-## How to add images and GIFs to MD file Method
-
+# Image
 1. Click "Upload files"
-
 2. Drag the image or GIF you want to put in README.md to the repository
-
 3. The image or GIF uploaded to Git will have a URL
-
 4. Commands to put the image or GIF in MD file
+- Syntax
 ```
 ![image](image or GIF url)
 ```
+- Example
+![Github](https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg)
+
+[Back to Table of Contents](#table-of-contents)
+
+# Links
+
+|Syntax|Example|Note|
+|------|-------|----|
+|`[Github](https://github.com/)`|[Github link](https://github.com/)||
+|`[Github](Github)`|[Github link](Github)|[Github]:https://github.com/|
+|`[Example](/Example)`|[Example](/Example)|Internal file links|
+|`[![Github Picture]](https://github.com/)`|[![Github Picture]](https://github.com/)|[Github Picture]:https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg|
+|`[Headings](#Headings)`|[Headings](#Headings)|Each 'Headings' is a Link|
+
+
+
+[Back to Table of Contents](#table-of-contents)
