@@ -16,7 +16,7 @@ The result is as follows:
 #### Heading Level 4
 ###### Heading Level 6
 
-[Table of Contents](https://github.com/bw9824/GitHub-features-and-tips/edit/main/How%20to%20add%20images%20and%20GIFs%20to%20MD%20file.md#table-of-contents)
+[Table of Contents](#table-of-contents)
 ### Horizontal lines
 
 ----------- ***、---、___ can display horizontal line effects
