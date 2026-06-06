@@ -65,6 +65,7 @@ Your Text
 - Example 1  
 Welcome!!!  
 Thank You
+
 - Syntax 2  
 ` ``` `  
 Your Text  
@@ -74,6 +75,7 @@ Your Text
 Welcome!!!
 Thank You
 ```
+
 - Syntax 3  
 ` ```c `  
 Your Coding  
