@@ -134,6 +134,7 @@ Simply pressing 'Enter' won't create a line break. 'Adding two spaces' after the
 ![image](image or GIF url)
 ```
 - Example
+
 ![Github](https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg)
 
 [Back to Table of Contents](#table-of-contents)
