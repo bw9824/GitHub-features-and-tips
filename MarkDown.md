@@ -114,10 +114,10 @@ Simply pressing 'Enter' won't create a line break. 'Adding two spaces' after the
 
 |Syntax|Example|Note|
 |------|-------|----|
-|`[Github](https://github.com/)`|[Github link](https://github.com/)||
-|`[Github](Github)`|[Github link](Github)|[Github]:https://github.com/|
+|`[Github link](https://github.com/)`|[Github link](https://github.com/)||
+|`[Github link][Github]`|[Github link][Github]|[Github]:https://github.com|
 |`[Example](/Example)`|[Example](/Example)|Internal file links|
-|`[![Github Picture]](https://github.com/)`|[![Github Picture]](https://github.com/)|[Github Picture]:https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg|
+|`[![Github Picture][Github Picture]](https://github.com/)`|[![Github Picture][Github Picture]](https://github.com/)|[Github Picture]:https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg|
 |`[Headings](#Headings)`|[Headings](#Headings)|Each 'Headings' is a Link|
 
 
