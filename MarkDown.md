@@ -117,7 +117,8 @@ Simply pressing 'Enter' won't create a line break. 'Adding two spaces' after the
 |`[Github link](https://github.com/)`|[Github link](https://github.com/)||
 |`[Github link][Github]`|[Github link][Github]|`[Github]:https://github.com` won't be displayed in the content.|
 |`[Example](/Example)`|[Example](/Example)|Internal file links|
-|`[![Github Picture]][Github]`|[![Github Picture]][Github]|`[Github Picture]:https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg`|
+|`[![](https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg)](https://github.com/)`|[![](https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg)](https://github.com/)||
+|`[![Github Picture]][Github]`|[![Github Picture]][Github]|`[Github Picture]:https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_of_Github.jpg` won't be displayed in the content.|
 |`[Headings](#Headings)`|[Headings](#Headings)|Each 'Headings' is a Link|
 
 [Github]:https://github.com
