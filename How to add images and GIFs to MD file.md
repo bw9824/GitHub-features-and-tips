@@ -1,3 +1,5 @@
+# Method
+
 1. Click "Upload files"
 
 2. Drag the image or GIF you want to put in README.md to the repository
